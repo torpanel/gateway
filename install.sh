@@ -8,3 +8,4 @@ cp torpanel-gateway /usr/local/bin/torpanel-gateway
 cp torpanel-gateway.php /usr/local/bin/torpanel-gateway.php
 
 service tor reload
+cat /var/lib/tor/tp-gateway/hostname
