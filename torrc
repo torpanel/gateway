@@ -1,0 +1,10 @@
+
+# Bootstrap file so that a .onion is generated
+
+# Required so that Tor loads on Whonix
+DisableNetwork 0
+
+# Each gateway gets a random domain
+HiddenServiceDir /var/lib/tor/tp-gateway
+HiddenServicePort 22 10.152.152.10:22
+HiddenServicePort 80 10.152.152.10:80
